@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(78, 146, 235);
+    margin: 0;
+}
+img{width: 700px;
+text-align: center;
+}
+header,footer {
+    background-color: violet;
+    color: brown;
+    text-align: center;
+    padding: 15px;
+}
+
+.container{
+    display: flex;
+    border-style: solid;
+    border-color: cornflowerblue ;
+}
+.texto{
+    flex: 1;
+    padding: 2%;
+}
+.imagem{
+    flex: 2;
+    text-align: center;
+    padding: 5%;
+    border-color: hotpink;
+}
