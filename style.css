@@ -1,57 +1,97 @@
-body{
-    background-color: rgb(31, 114, 223);
-    font-family: 'Courier New', Courier, monospace;
+body {
+    background-color: lightslategrey;
     margin: 0;
-}
-img{width: 700px;
-text-align: center;
-}
-header,footer {
-    background-color: rgb(131, 200, 240);
-    color: rgb(248, 250, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    }
+    
+    img {
+    width: 700px;
     text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    }
+    
+    header,
+    footer {
+    /* cor de fundo */
+    background-color: rgb(0, 0, 0);
+    /* cor do texto */
+    color: ivory;
+    /* alinhamento do texto */
+    text-align: center;
+    /* preenchimento */
     padding: 15px;
-}
-
-.container{
+    }
+    
+    .container {
     display: flex;
     border-style: solid;
-    border-color: rgb(7, 87, 207) ;
-}
-.texto{
+    border-color: black;
+    }
+    
+    .texto {
     flex: 1;
-    padding: 2%;
-}
-.imagem{
+    padding: 10%;
+    }
+    
+    .imagem {
     flex: 2;
     text-align: center;
     padding: 5%;
-    border-color: rgb(20, 11, 102);
-}
-a:hover {
-    color:rgb(26, 105, 151)
-}
-a{
-    transition: color 0.3 ease;
-}
-nav{
-    background-color: rgb(255, 255, 255);
+    border-color: black;
+    }
+    
+    a:hover {
+    color: brown;
+    }
+    
+    a {
+    transition: color 0.3s ease;
+    }
+    
+    nav {
     text-align: center;
-}
-nav ul {
+    margin: 0;
+    }
+    
+    nav ul {
     list-style: none;
     padding: 0;
-}
-nav li{
+    }
+    
+    nav li {
     display: inline;
-    margin-right: 40px;
-}
-nav a{
+    margin-right: 20px;
+    }
+    
+    nav a {
     text-decoration: none;
-    color:blue;
+    color: aliceblue;
     font-weight: bold;
+    font-size: 15px;
+    }
+    
+    nav a:hover {
+    color: darkgreen;
+    }
+    
+    .sobre-titulo {
+    font-size: 40px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    }
+    
+    .sobre-texto {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-nav a:hover{
-    color: beige;
-}
+    line-height: 2.0;
+    margin-top: 10px;
+    }
+    
+    .sobre-lista {
+    list-style:circle;
+    padding-left: 0;
+    margin-top: 15px;
+    }
